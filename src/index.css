@@ -54,6 +54,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.container {
+  background-color: #111111;
+}
+.success {
+  background-color: #009700;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -64,5 +71,11 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+  .container {
+    background-color: #f9f9f9;
+  }
+  .success {
+    background-color: #0ef187;
   }
 }
