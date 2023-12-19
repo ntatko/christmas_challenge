@@ -52,7 +52,7 @@ const BlockInput = ({ value, targetValue, onChange, success }) => {
     <div style={{ display: 'flex', gap: 4, justifyContent: 'center', paddingTop: 20}}>
       {targetValue.split('').map((char, index) => (
         <input
-          style={{...EMPTY_TILE_STYLE, ...(success ? {backgroundColor: '#003300'} : {}) }}
+          style={{...EMPTY_TILE_STYLE, ...(success ? {backgroundColor: '#005500'} : {}) }}
           key={index}
           ref={inputRefs.current[index]}
           type="text"
