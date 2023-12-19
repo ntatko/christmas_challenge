@@ -22,7 +22,6 @@ const TILE_STYLE = {
 
 const EMPTY_TILE_STYLE = {
   ...TILE_STYLE,
-  backgroundColor: '#111111',
   outline: 'none',
   transition: 'all 0.6s ease-in-out',
 };
